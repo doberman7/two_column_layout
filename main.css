@@ -71,8 +71,9 @@ body{
   border-top: solid 20px black;
 }
 
-#pricing h2{
-  width: 20%;
+
+#pricing ul{
+  list-style-type: square;
 }
 
 #pricing{
@@ -80,8 +81,9 @@ body{
   /*The flex property specifies the length of the item, relative to the rest of the flexible items inside the same container.
   Note: If the element is not a flexible item, the flex property has no effect.
 */
-  display:flex;
+  display: flex;
 }
+
 
 
 #about{
