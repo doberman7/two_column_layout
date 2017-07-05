@@ -1,0 +1,98 @@
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+
+.feature{
+  /*The column-count CSS property describes the number of columns of the element. Initial Value: auto */
+  column-count: 2;
+  /*The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements, only their inline content. Initial Value: start, or a nameless value that acts as left if direction is ltr, right if direction is rtl if start is not supported by the browser.*/
+  text-align: justify;
+  /*The text-justify property specifies the justification method to use when text-align is set to "justify".
+
+  This property specifies how justified text should be aligned and spaced.*/
+  text-justify: inter-word;
+  /*espacio entre columnas*/
+  column-gap: 40px;
+  display:block;
+  margin-bottom: 30px;
+}
+
+
+/*Voltear primero if turtles, posteriormete cada elemento nuevamente, de tal manera que se invierta el lugar de la img con el texto*/
+
+#turtles{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg);/* Safari and Chrome */
+}
+
+#turtles h3{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg);/* Safari and Chrome */
+}
+
+#turtles p{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg);/* Safari and Chrome */
+}
+
+#turtles img{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform:rotate(180deg);/* Safari and Chrome */
+  /*agregar borde negro al final, ya que la image se descuadra */
+  border-bottom: solid 20px black;
+}
+/*-------------------------------------*/
+
+.feature img{
+  /*encuadrar las imagenes agregando un borde en la parte superior*/
+  border-top: solid 20px black;
+}
+
+#pricing h2{
+  width: 20%;
+}
+
+#pricing{
+  column-count: 3;
+  /*The flex property specifies the length of the item, relative to the rest of the flexible items inside the same container.
+  Note: If the element is not a flexible item, the flex property has no effect.
+*/
+  display:flex;
+}
+
+
+#about{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#contact{
+  display:flow-root;
+}
+
+.footer{
+  text-align: center;
+}
